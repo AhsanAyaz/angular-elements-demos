@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ng Elements Playground</title>
+        <script src="../lib/es5-shim.js"></script>
+        <script src="../lib/angular.js"></script>
+        <script src="stop-watch-app.js" async></script>
+        <style>
+            .app-heading{
+                padding-top: 20px;
+                text-align: center;
+                font-size: 32px;
+            }
+            .demos-list{
+                padding-top: 50px;
+                margin: 0 auto;
+                max-width: 400px;
+                list-style: none;
+                font-size: 18px;
+                text-align: center;
+            }
+
+            .demos-list .demos-list-item {
+                border-bottom: 1px solid #dcdcdc;
+                padding-bottom: 10px;
+            }
+
+            .demos-list .demos-list-item:last-child {
+                border-bottom: none;
+            }
+
+            .demos-list a {
+                font-weight: bold;
+            }
+
+            a{
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="app-heading">
+            Angular Elements Demo Apps / Widgets
+        </div>
+        <ul class="demos-list">
+            <li class="demos-list-item">
+                <a href="stop-watch-app">Stop Watch App</a>
+                <p> Angular Element App being used in a usual html5 page without any js framework</p>
+            </li>
+        </ul>
+    </body>
+</html>
+        
